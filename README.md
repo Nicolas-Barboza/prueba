@@ -1,6 +1,6 @@
 # Practica Angular
 
-Aplicacion desarrollada con Angular 21 y Bootstrap para la materia Programacion y Servicios Web. El proyecto esta organizado en tres vistas principales accesibles desde una barra de navegacion superior.
+Aplicacion web desarrollada con Angular 21 y Bootstrap para la materia Programacion y Servicios Web. El proyecto presenta una interfaz moderna, responsive y orientada a la practica de componentes, servicios, navegacion y manejo de estado dentro de una SPA.
 
 ## Descripcion general
 
@@ -15,31 +15,7 @@ La aplicacion presenta tres ejercicios o secciones:
 - Angular 21
 - TypeScript
 - Bootstrap 5
-- Bootstrap Icons
 - HTML y CSS
-- Vitest para pruebas unitarias
-
-## Estructura principal
-
-```text
-src/
-  app/
-    components/
-      layout/
-        navbar/
-        footer/
-      pages/
-        punto1/
-        punto2/
-        punto3/
-    models/
-    services/
-  assets/
-    img/
-      cartas/
-      eventos/
-      productos/
-```
 
 ## Funcionalidades
 
@@ -47,7 +23,7 @@ src/
 
 - Muestra una coleccion de eventos cargados desde `EventoService`.
 - Permite avanzar y retroceder entre eventos.
-- Usa imagenes locales y un diseno visual tipo showcase.
+- Presenta cada evento con una estetica visual atractiva y dinamica.
 
 ### Punto 2 - Tienda con carrito
 
@@ -55,7 +31,7 @@ src/
 - Permite agregar productos al carrito.
 - Actualiza cantidades desde un modal.
 - Descuenta y repone stock en tiempo real.
-- Calcula el total de la compra.
+- Calcula el total de la compra de forma automatica.
 
 ### Punto 3 - Juego de memoria
 
@@ -91,40 +67,24 @@ http://localhost:4200
 - `npm run watch`: recompila en modo desarrollo ante cambios.
 - `npm test`: ejecuta las pruebas unitarias.
 
-## Rutas de la aplicacion
-
-- `/punto1`
-- `/punto2`
-- `/punto3`
-
-La ruta inicial redirige automaticamente a `/punto1`.
-
-## Recursos visuales
-
-Las imagenes utilizadas por la aplicacion se encuentran en:
-
-- `src/assets/img/eventos`
-- `src/assets/img/productos`
-- `src/assets/img/cartas`
-
 ## Capturas del proyecto
 
-En esta seccion se pueden agregar capturas de pantalla de la web para mostrar la interfaz de cada punto.
+En esta seccion se pueden incorporar capturas de pantalla de la aplicacion para mostrar visualmente cada una de las vistas desarrolladas.
 
 ### Punto 1
 
-Pegar aqui la captura correspondiente al carrusel de eventos.
+Captura correspondiente al carrusel de eventos.
 
 ### Punto 2
 
-Pegar aqui la captura correspondiente a la tienda con carrito.
+Captura correspondiente a la tienda con carrito de compras.
 
 ### Punto 3
 
-Pegar aqui la captura correspondiente al juego de memoria.
+Captura correspondiente al juego de memoria.
 
 ## Notas
 
 - El proyecto usa componentes y servicios separados para mantener la logica organizada.
 - Bootstrap se carga desde `angular.json`.
-- Los assets locales se publican desde `src/assets`.
+- La aplicacion fue pensada para combinar funcionalidad, navegacion y una presentacion visual clara.
