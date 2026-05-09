@@ -1,4 +1,4 @@
-# prueba# Practica Angular
+# Practica Angular
 
 Aplicacion desarrollada con Angular 21 y Bootstrap para la materia Programacion y Servicios Web. El proyecto esta organizado en tres vistas principales accesibles desde una barra de navegacion superior.
 
@@ -75,7 +75,7 @@ npm install
 2. Levantar el servidor de desarrollo:
 
 ```bash
-npm start
+ng serve
 ```
 
 3. Abrir en el navegador:
@@ -109,29 +109,19 @@ Las imagenes utilizadas por la aplicacion se encuentran en:
 
 ## Capturas del proyecto
 
-Pueden pegar las imagenes del trabajo en una carpeta como `docs/imagenes/` y luego referenciarlas aca.
-
-Ejemplo:
-
-```md
-![Vista Punto 1](docs/imagenes/punto1.png)
-![Vista Punto 2](docs/imagenes/punto2.png)
-![Vista Punto 3](docs/imagenes/punto3.png)
-```
-
-Plantilla lista para completar:
+En esta seccion se pueden agregar capturas de pantalla de la web para mostrar la interfaz de cada punto.
 
 ### Punto 1
 
-![Captura Punto 1](docs/imagenes/punto1.png)
+Pegar aqui la captura correspondiente al carrusel de eventos.
 
 ### Punto 2
 
-![Captura Punto 2](docs/imagenes/punto2.png)
+Pegar aqui la captura correspondiente a la tienda con carrito.
 
 ### Punto 3
 
-![Captura Punto 3](docs/imagenes/punto3.png)
+Pegar aqui la captura correspondiente al juego de memoria.
 
 ## Notas
 
